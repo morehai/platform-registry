@@ -33,7 +33,7 @@ public class PlatformRegistry {
 	private Environment env;
 
 	/**
-	 * Initializes registrationAuthority.
+	 * Initializes platformRegistry.
 	 * <p>
 	 * Spring profiles can be configured with a program arguments
 	 * --spring.profiles.active=your-active-profile
