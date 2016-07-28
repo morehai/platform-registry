@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .factory('Account', Account);
 
     Account.$inject = ['$resource'];

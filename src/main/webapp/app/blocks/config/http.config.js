@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .config(httpConfig);
 
     httpConfig.$inject = ['$urlRouterProvider', '$httpProvider', 'httpRequestInterceptorCacheBusterProvider', '$urlMatcherFactoryProvider'];
@@ -18,7 +18,7 @@
         $httpProvider.interceptors.push('authExpiredInterceptor');
         $httpProvider.interceptors.push('authInterceptor');
         $httpProvider.interceptors.push('notificationInterceptor');
-        // platform-needle-angularjs-add-interceptor JHipster will add new application http interceptor here
+        // platform-needle-angularjs-add-interceptor Platform will add new application http interceptor here
 
         $urlMatcherFactoryProvider.type('boolean', {
             name : 'boolean',

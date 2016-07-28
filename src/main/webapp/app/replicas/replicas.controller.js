@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .controller('ReplicasController', ReplicasController);
 
     ReplicasController.$inject = ['ReplicasService'];

@@ -11,7 +11,7 @@
     };
     
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .component('jhiAlertError', jhiAlertError);
 
     jhiAlertErrorController.$inject = ['$scope', 'AlertService', '$rootScope'];
@@ -36,7 +36,7 @@
             );
         }
 
-        var cleanHttpErrorListener = $rootScope.$on('JHipsterRegistryApp.httpError', function (event, httpResponse) {
+        var cleanHttpErrorListener = $rootScope.$on('PlatformRegistryApp.httpError', function (event, httpResponse) {
             var i;
             event.stopPropagation();
             switch (httpResponse.status) {
@@ -46,8 +46,8 @@
                 break;
 
             case 400:
-                var errorHeader = httpResponse.headers('X-JHipsterRegistryApp-error');
-                var entityKey = httpResponse.headers('X-JHipsterRegistryApp-params');
+                var errorHeader = httpResponse.headers('X-PlatformRegistryApp-error');
+                var entityKey = httpResponse.headers('X-PlatformRegistryApp-params');
                 if (errorHeader) {
                     var entityName = entityKey;
                     addErrorAlert(errorHeader, errorHeader, {entityName: entityName});

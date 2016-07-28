@@ -11,6 +11,6 @@
     };
 
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .component('statusLabel', statusLabel);
 })();

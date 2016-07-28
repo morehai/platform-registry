@@ -1,4 +1,4 @@
-beforeEach(module('JHipsterRegistryApp'));
+beforeEach(module('PlatformRegistryApp'));
 /**
  * returns a function whose angular will be replaced
  * with whatever mock was supplied.

@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .factory('JhiMetricsService', JhiMetricsService);
 
     JhiMetricsService.$inject = ['$rootScope', '$http'];
@@ -16,7 +16,7 @@
         return service;
 
         function getMetrics () {
-            return $http.get('management/jhipster/metrics').then(function (response) {
+            return $http.get('management/platform/metrics').then(function (response) {
                 return response.data;
             });
         }

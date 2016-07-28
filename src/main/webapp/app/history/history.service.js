@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .factory('HistoryService', HistoryService);
 
     HistoryService.$inject = ['$resource'];

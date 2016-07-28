@@ -11,7 +11,7 @@
     };
 
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .component('jhiAlert', jhiAlert);
 
     jhiAlertController.$inject = ['$scope', 'AlertService'];

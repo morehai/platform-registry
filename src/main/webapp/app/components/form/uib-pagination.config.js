@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .config(paginationConfig);
 
     function paginationConfig(uibPaginationConfig, paginationConstants) {

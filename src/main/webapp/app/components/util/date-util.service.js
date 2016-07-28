@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .factory('DateUtils', DateUtils);
 
     DateUtils.$inject = ['$filter'];

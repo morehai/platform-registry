@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .directive('jhSortBy', jhSortBy);
 
     function jhSortBy() {

@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .controller('HistoryController', HistoryController);
 
     HistoryController.$inject = ['HistoryService'];

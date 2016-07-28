@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('JHipsterRegistryApp', [
+        .module('PlatformRegistryApp', [
             'ngStorage',
             'ngResource',
             'ngCookies',
@@ -11,7 +11,7 @@
             'ui.bootstrap',
             'ui.router',
             'hljs',
-            // platform-needle-angularjs-add-module JHipster will add new module here
+            // platform-needle-angularjs-add-module Platform will add new module here
             'angular-loading-bar'
         ])
         .run(run);

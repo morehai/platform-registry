@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('JHipsterRegistryApp')
+        .module('PlatformRegistryApp')
         .factory('ConfigService', ConfigService);
 
     ConfigService.$inject = ['$http'];
